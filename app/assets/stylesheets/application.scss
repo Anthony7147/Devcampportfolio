@@ -123,9 +123,17 @@ h6, .h6 {
  */
 
 .cover {
+  padding-bottom: 10px;
   padding: 0 1.5rem;
 }
+
+.cover-heading {
+  font-size: 125px;
+  margin-bottom: 65px; 
+  color: ghostwhite;
+}
 .cover .btn-lg {
+  margin-top: 215px;
   padding: .75rem 1.25rem;
   font-weight: bold;
 }
@@ -213,7 +221,7 @@ h6, .h6 {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('home_bg.png') no-repeat;
+  background: image-url('my_movie.mp4') no-repeat;
   background-size: cover;
 }
 
@@ -235,8 +243,9 @@ h6, .h6 {
 }
 
 .app-card-container {
-  color: black;
-  text-align: left;
+  color: ghostwhite;
+  margin-bottom: 150px;
+  font-size: 17px;
 }
 
 .app-card-container > .card {
@@ -248,7 +257,7 @@ h6, .h6 {
 }
 
 .app-card-container a {
-  color: blue;
+  color: chartreuse;
 }
 
 .card-block {
@@ -259,4 +268,12 @@ h6, .h6 {
 .skill {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.btn-primary {
+  margin: 10px;
+}
+
+.contact {
+  padding-top: 128px;
 }
